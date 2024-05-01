@@ -6,7 +6,7 @@ from src.config import DB_HOST, DB_PORT, DB_DATABASE, DB_USER, DB_PASSWORD
 from src.db_connector import DBConnector
 from src.geolocation import Geocoder
 from src.heatmap_generator import HeatmapGenerator
-from src.format_csv import DataframeFormatter
+from src.format_df import DataframeFormatter
 
 
 # Create your query here
