@@ -6,16 +6,17 @@ This is a Python project to generate a heatmap from sales data obtained from a P
 
 The project is structured as follows:
 
-projeto/
-│
-├── src/
+src/
+
 │   ├── __init__.py
+
 │   ├── db_connector.py
+
 │   ├── geocoder.py
+
 │   ├── heatmap_generator.py
-│   └── main.py
-│
-└── resultado_consulta_e_coordenadas.csv
+
+└── main.py
 
 
 - **`src/`**: Contains the project modules.
