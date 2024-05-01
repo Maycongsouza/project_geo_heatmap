@@ -7,11 +7,12 @@ This is a Python project to generate a heatmap from sales data obtained from a P
 The project is structured as follows:
 
 - **`src/`**: Contains the project modules.
+    - **`config.py`**: File that creates environment variables with the DB connection settings.
     - **`db_connector.py`**: Class for connecting to and querying the PostgreSQL database.
-    - **`geocoder.py`**: Class for geocoding the ZIP codes using the Nominatim API.
-    - **`heatmap_generator.py`**: Class for generating the heatmap from the geographical data.
+    - **`geolocation.py`**: Class for geocoding the ZIP codes using the Nominatim API.
     - **`api_cep.py`**: Class that queries the VIACEP API and obtains the necessary data to perform the query, in case the ZIP code alone is not sufficient for this.
     - **`format_df.py`**: Formats the DataFrame as needed. It comes with default rules, but they can be easily changed.
+    - **`heatmap_generator.py`**: Class for generating the heatmap from the geographical data.
 - **`main.py`**: Entry point of the program, where execution starts..
 
 ## How to Run
