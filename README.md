@@ -7,15 +7,10 @@ This is a Python project to generate a heatmap from sales data obtained from a P
 The project is structured as follows:
 
 src/
-
 │   ├── __init__.py
-
 │   ├── db_connector.py
-
 │   ├── geocoder.py
-
 │   ├── heatmap_generator.py
-
 └── main.py
 
 
