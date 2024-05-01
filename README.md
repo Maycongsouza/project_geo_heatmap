@@ -6,14 +6,6 @@ This is a Python project to generate a heatmap from sales data obtained from a P
 
 The project is structured as follows:
 
-src/
-│   ├── __init__.py
-│   ├── db_connector.py
-│   ├── geocoder.py
-│   ├── heatmap_generator.py
-└── main.py
-
-
 - **`src/`**: Contains the project modules.
     - **`db_connector.py`**: Class for connecting to and querying the PostgreSQL database.
     - **`geocoder.py`**: Class for geocoding the ZIP codes using the Nominatim API.
